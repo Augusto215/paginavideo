@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* 
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 600;
+  
+    
+    
+}
+
+.comentarios
+{
+    max-width: 60rem;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  
+}
+.logo img
+{
+    max-width:  7rem;
+    cursor: pointer;
+}
+h1
+{
+    color:blueviolet;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: .5rem;
+}
+
+p
+{
+    font-size: 1.3rem;
+}
+body
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   background:#fff;
+}
+
+header
+
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+nav 
+{
+  
+    display: flex;
+    background-color: #fff;
+    padding:1.3rem 2%;
+    align-items:center;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+   
+    
+ 
+    align-items: center;
+    justify-content: space-between;
+}
+.main-container
+{
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90vw;
+    justify-content: space-evenly;
+    min-height: 25rem;
+
+   
+
+}
+.main-container-video
+{
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    max-width: 90vw;
+    box-shadow: 2px 2px 10px #bbbbbb;
+    justify-content: space-evenly;
+    min-height: 25rem;
+
+   
+
+}
+
+.main-container p
+{
+    word-break: break-word;
+ 
+  
+}
+
+.comentario 
+{
+    margin-top:1.5rem;
+    width: 100%;
+
+}
+
+
+
+.preferencia
+{
+    display: flex;
+    align-items: center;
+}
+.preferencia img
+{
+    height:7rem;
+    box-shadow: 2px 2px 15px #bbbbbb;
+    border-radius: 12px;
+    
+}
+
+
+.x 
+{
+    padding:1rem;
+    font-size: 1.5rem;
+    
+}
+.valor
+{
+    background-color: #11B826;
+    border-radius: 7px;
+    color:#fff;
+    font-size: 1.7rem;
+    outline: none;
+    border:none;
+    padding:.2rem .5rem;
+    cursor: pointer;
+}
+.main-section
+{
+    text-align: center;
+    max-width: 95vw;
+    align-items: center;
+    margin: 4rem auto 2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.08);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+
+
+  @keyframes pulseHover {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.03);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.recebido, .enviado
+{
+    margin:0 .5rem .5rem;
+    padding:.3rem .5rem;
+    border-radius: 20px;
+    display: inline-block;
+    width: fit-content;
+    font-size: .8rem;
+}
+
+.enviado
+{
+    right: 1rem;
+    opacity: 0;
+    background-color: #D5F3C0;
+}
+
+.recebido
+{
+    left:1rem;
+    opacity: 0;
+    background-color:#F3F3F3;
+
+}
+.sua-classe {
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    fill: #FFFFFF;
+    font-weight: bold;
+    width: 100%;
+    max-width: 25rem;
+    padding: 1rem 2rem !important;
+    color: #FFFFFF;
+    background-color: #18CB02;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 1px #18CB02;
+    padding: 20px 20px 20px 20px;
+    animation: pulse 1s infinite;
+  }
+
+  .sua-classe:hover
+  {
+    animation: pulseHover .6s infinite;
+  }
+.comecar
+{
+   
+    background-color: #68ABF0E3;
+    padding: 1rem;
+    word-break: break-word;
+    border-radius: 12px;
+    max-width: 40rem;
+    width:100%;
+    color:#fff;
+    margin-top:2rem;
+    box-shadow: 2px 4px 10px #505050;
+    cursor: pointer;
+   
+}
+
+.align-container
+{
+    margin:auto;
+}
+.progress-bar {
+    width:70%;
+    background-color: #FF000070 !important;
+    border-radius: 30px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  }
+  .progress-bar-inner {
+    width: 0;
+    height: 30px;
+    background-color: #11B826;
+    border-radius: 30px;
+    animation: grow 2s forwards;
+  }
+
+  .progress-bar-inner2 {
+    width: 33%;
+    height: 30px;
+    background-color: #11B826;
+    border-radius: 30px;
+    animation: grow2 2s forwards;
+  }
+
+  .progress-bar-inner3 {
+    width: 66%;
+    height: 30px;
+    background-color: #11B826;
+    border-radius: 30px;
+    animation: grow3 2s forwards;
+  }
+
+  @keyframes grow {
+    to {
+      width: 33%;
+    }
+  }
+
+  @keyframes grow2 {
+    to {
+      width: 66%;
+    }
+  }
+
+  @keyframes grow3 {
+    to {
+      width: 100%;
+    }
+  }
+@media(max-width:30rem)
+{
+    .preferencia img 
+    {
+        height:5rem;
+    }
+
+    .p-1
+    {
+        padding:0.09rem !important;
+    }
+  .mt-2 img
+  {
+    width: 2.5rem !important;
+    height:2.5rem !important;
+  }
+
+  .comentario span
+  {
+    font-size: .9rem !important;
+  }
+   
+}
+
+.questoes
+{
+    margin-top:2.5rem;
+    text-align: center;
+    width:100%;
+    font-weight: 600;
+    max-width: 30rem;
+    font-size: 1rem;
+}
+
+.respostas
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top:1rem;
+}
+.perguntas 
+{
+    width:90%;
+    margin:auto;
+    text-align: left;
+}
+.respostas span
+{
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    padding:.7rem 1.2rem;
+    width:100%;
+    margin:.5rem;
+
+    text-align: center;
+    justify-content:center;
+    cursor: pointer;
+}
+
+.iphoneImagem
+{
+    width: 20rem;
+}
+.parabens-container.is-active
+{
+    display: flex !important;
+}
+.respostas1 span
+{
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    padding:.7rem;
+    width:15%;
+    text-align: center;
+    justify-content:center;
+    cursor: pointer;
+    margin:.2rem;
+}
+
+.red.is-active, .yellow.is-active, .green.is-active, .blue.is-active, .orange.is-active 
+{
+    transform:scale(1.2);
+    transition: .3s ease;
+}
+
+.sim.is-active, .nao.is-active 
+{
+    background-color:blueviolet;
+    color:#fff;
+}
+.respostas1
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top:1rem;
+}
+
+.parabens-modal
+{
+    max-width:85vw;
+    width:60rem;
+    background-color:#fff;
+    border-radius: 12px;
+    max-height: 85vh;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: .5rem   ;
+}
+
+.assistir-video
+{
+    background-color:#21a551;
+    color:#fff;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 1rem;
+    width:30rem;
+    max-width: 90%;
+}
+.parabens-modal p 
+{
+max-width: 90%;
+    word-break: break-word;
+}
+
+a 
+{
+    text-decoration: none;
+    display: flex;
+    max-width: 90%;
+    text-align: center;
+    justify-content: center;
+    align-items: cener;
+
+}
+
+@media (max-width:30rem)
+
+{
+    .iphoneImagem
+    {
+       width: 17rem;
+    }
+
+    .valor
+    {
+      font-size: 1rem;
+    }
+
+    .logo img
+    {
+      max-width: 5rem;
+    }
+}
